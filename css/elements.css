@@ -1,0 +1,55 @@
+.isNotVisible{width: 0;height: 0;}
+.isVisible{
+    width: 100vw;
+    height: 100vh; 
+    position: fixed;
+    background-color: #00000088;
+    top:0;
+    left:0;
+}
+.isVisible>.container{ 
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 90%;
+    margin-left:15%;
+    margin-top:2%;
+    background-color: #ccc;
+    border-radius: 10px;
+    border:2px solid black;
+}
+button{
+    position: fixed;
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius:10px;
+    border:2px black solid  ;
+    margin: 10px;
+    cursor: pointer; 
+    display: block;
+}
+img{  
+    position: absolute;
+    top:50px;
+    left:10px;
+    width: 200px;
+    height: 200px;
+    margin:10px;
+    border:2px solid black;
+    border-radius:10px;
+} 
+.container>h1{
+    position: absolute;
+    top:300px;
+    left:10px;
+    margin:10px;
+}
+.container>div{
+    position: absolute; 
+    font-size: 1.2em;
+    text-align: justify;
+    top:50px;
+    left:250px;
+    max-width: 600px;
+}

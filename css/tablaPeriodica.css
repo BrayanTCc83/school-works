@@ -1,0 +1,63 @@
+
+table{
+    border:none;
+    border-spacing: 2px;margin:0 0 1em 0;
+}
+th,td{border:none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vw;
+    z-index: 1;
+    text-align: center; 
+}
+.gas{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #ac60ca99;
+}
+.gas:hover{transition-property: all;transition-duration: 1s;
+    background-color: #b700ff;
+    cursor: pointer;
+}
+.noMetal{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #d8d64499;
+}
+.noMetal:hover{transition-property: all;transition-duration: 1s;
+    background-color: #fffb00;
+    cursor: pointer;
+}
+.metal{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #52ac5699;
+}
+.metal:hover{transition-property: all;transition-duration: 1s;
+    background-color: #007206;
+    cursor: pointer;
+}
+.metaloide{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #5dc73499;
+}
+.metaloide:hover{transition-property: all;transition-duration: 1s;
+    background-color: #43ec00;
+    cursor: pointer;
+}
+.metalTransicion{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #3c6eca99;
+}
+.metalTransicion:hover{transition-property: all;transition-duration: 1s;
+    background-color: #0059ff;
+    cursor: pointer;
+}
+.serieL{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #b3b3b399;
+    color: #ca3c3c;
+}
+.serieA{transition-property: all;transition-duration: 1s;
+    border:2px solid black   ;  
+    background-color: #b3b3b399;
+    color: #123104;
+}td>h6{border:none;margin:0;font-size:0.4em;}

@@ -1,0 +1,5 @@
+@import './elements.css';
+@import './tablaPeriodica.css';
+*{
+    font-family:sans-serif;
+}
